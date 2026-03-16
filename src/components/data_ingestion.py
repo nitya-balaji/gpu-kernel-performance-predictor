@@ -24,7 +24,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("Entered the Data Ingestion Method or Component")
         try:
-            df=pd.read_csv("notebook\data\sgemm_product_v2.csv")
+            df=pd.read_csv("notebook/data/sgemm_product_v2.csv")
             logging.info("Read the dataset as dataframe")
             
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path), exist_ok=True) #looks at artifacts/train.csv and extracts just the folder name (artifacts) -> exist_ok = True means if folder already exists don't crash
