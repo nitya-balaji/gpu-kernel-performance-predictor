@@ -64,5 +64,9 @@ def predict_datapoint():
         except Exception as e:
             return render_template("home.html", error=f"Prediction error: {str(e)}")
 
+#automatically triggers training when container starts
+with application.app_context():
+    pipeline = TrainPipeline()
+    pipeline.run_pipeline()
 if __name__ == "__main__":
     app.run(host="0.0.0.0",port=5000)
