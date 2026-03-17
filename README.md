@@ -109,7 +109,7 @@ Training complete! R2 Score: 0.9999...
 ```
 http://localhost:5000/predictdata
 ```
-Enter your GPU kernel configuration parameters and click **Predict Runtime** to get a predicted execution time in milliseconds.
+Enter your GPU kernel configuration parameters and click **Predict Runtime** to get a predicted runtime in milliseconds.
 
 ---
 
