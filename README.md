@@ -77,23 +77,23 @@ The notebook served as the experimental ground for preprocessing and model selec
 
 ## How to Run Locally
 
-1. Clone the repository
+**1. Clone the repository**
 ```bash
 git clone https://github.com/nitya-balaji/gpu-kernel-performance-predictor
 cd gpu-kernel-performance-predictor
 ```
 
-2. Build the Docker image
+**2. Build the Docker image**
 ```bash
 docker build -t gpu-performance-predictor .
 ```
 
-3. Run the container
+**3. Run the container**
 ```bash
 docker run -p 5000:5000 gpu-performance-predictor
 ```
 
-4. Train the model
+**4. Train the model**
 
 Open your browser and visit:
 ```
@@ -105,9 +105,7 @@ Training complete! R2 Score: 0.9999...
 ```
 ⚠️ This step trains all 7 models and selects the best one — it may take several minutes to complete. Do not close the browser tab until training is finished. This must be completed before making any predictions.
 
-5. Make a prediction
-
-Navigate to:
+**5. Navigate to:**
 ```
 http://localhost:5000/predictdata
 ```
