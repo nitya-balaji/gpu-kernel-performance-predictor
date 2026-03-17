@@ -1,4 +1,7 @@
-# GPU Runtime Predictor
+# GPU Kernel Performance<img width="955" height="860" alt="homepage" src="https://github.com/user-attachments/assets/065c1cc7-f8f8-4ede-8033-aed62770e811" />
+<img width="953" height="861" alt="predict2" src="https://github.com/user-attachments/assets/9003155a-c80b-411c-b5c7-6ee3d3b2821c" />
+<img width="847" height="867" alt="runtime" src="https://github.com/user-attachments/assets/1483ef66-5a5c-4a45-8fc4-2bc4c0a0cc89" />
+ Predictor
 **End-to-End Machine Learning System (Production-Ready)**
 
 This project is a full end-to-end Machine Learning pipeline designed to predict GPU kernel runtimes based on OpenCL SGEMM configuration parameters. It demonstrates real-world ML engineering practices, including modular code design, custom logging, exception handling, CI/CD automation, Dockerization, and cloud deployment on AWS.
